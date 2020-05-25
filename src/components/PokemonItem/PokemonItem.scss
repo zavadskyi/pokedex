@@ -21,6 +21,10 @@
     &:hover {
       box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.2);
       transform: translateY(-10px);
+      @media only screen and (max-width: 600px) {
+        transform: none;
+        box-shadow: none;
+      }
     }
   }
 
